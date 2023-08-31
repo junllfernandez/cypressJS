@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "cypress-mochawesome-reporter": "^3.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --browser chrome --spec 'cypress/e2e/tests/mainTest.cy.js'"
+  }
+}
